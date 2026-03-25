@@ -77,11 +77,11 @@ const BACKGROUND_FADE_START = Math.max(
 );
 
 const TYPED_LINES = [
-  "> tina",
+  "> chihe",
   "...",
-  "> today is your birthday",
+  "> today is not ur birthday but anyway",
   "...",
-  "> so i made you this computer program",
+  ">i made you this computer program",
   "...",
   "٩(◕‿◕)۶ ٩(◕‿◕)۶ ٩(◕‿◕)۶"
 ];
@@ -99,7 +99,7 @@ type BirthdayCardConfig = {
 const BIRTHDAY_CARDS: ReadonlyArray<BirthdayCardConfig> = [
   {
     id: "confetti",
-    image: "/card.png",
+    image: "/card.jpg",
     position: [1, 0.081, -2],
     rotation: [-Math.PI / 2 , 0, Math.PI / 3],
   }
